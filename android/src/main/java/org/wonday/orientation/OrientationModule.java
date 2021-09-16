@@ -367,4 +367,12 @@ public class OrientationModule extends ReactContextBaseJavaModule implements Ori
             FLog.w(ReactConstants.TAG, "Receiver already unregistered", e);
         }
     }
+    
+    @ReactMethod
+    public void addListener(String eventName) {
+    }
+
+    @ReactMethod
+    public void removeListeners(double count) {
+    }
 }
